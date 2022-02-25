@@ -1,0 +1,23 @@
+$primary  : #2c5e03ff;
+$secondary: #c7dbb6ff;
+$green-ryb: #5e9e29ff;
+$tea-green: #cce3baff;
+$celadon  : #b6d69cff;
+
+body {
+    font-family     : Roboto, sans-serif;
+    background-color: lighten($color: $celadon, $amount: 20%);
+}
+
+.stripped section {
+    padding: 25px 0;
+
+    &:nth-child(2n) {
+        background-color: $primary;
+        color: lighten($color: $celadon, $amount: 20%);
+    }
+}
+
+h2 {
+    text-align: center;
+}

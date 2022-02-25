@@ -1,0 +1,12 @@
+@mixin centralize {
+    // Centralizar componente
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+@mixin subtitle-font ($fontSize){
+    // Utilizar mesmo tamnaho de fonte e destaque a classe card-footer
+    font-size  : $fontSize;
+    font-weight: 500;
+}

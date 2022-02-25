@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;900&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet" href="./general.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu primeiro site</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-title">
+            <h1>Curso completo de SCSS</h1>
+            <h2>Onde você aprende do jeito certo</h2>
+        </div>
+    </header>
+
+    <main class="stripped">
+        <section>
+            <h2>Cursos</h2>
+            <!--Container dos Cards-->
+            <div class="cards-container">
+                <!--Cards-->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="Curso de React">
+                    <div class="card-footer">
+                        React
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="Curso de Mongo DB">
+                    <div class="card-footer">
+                        Mongo DB
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/400" alt="Curso de React Native">
+                    <div class="card-footer">
+                        React Native
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="advantages-section">
+            <h2>Vantagens</h2>
+            <div class="advantages-container">
+                <div class="advantage">
+                    <h3>Teórico</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae doloribus qui,
+                        necessitatibus
+                        cupiditate repellat illo aliquid adipisci deleniti totam recusandae delectus magnam nostrum,
+                        magni
+                        voluptates dolorum aut expedita veritatis quo placeat ipsam non. Illo at dolor rem sint cumque.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <h3>Prático</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nam sapiente sunt omnis doloribus
+                        ipsam, distinctio officiis reprehenderit consequuntur accusantium incidunt excepturi dolor quasi
+                        beatae non magni ut ab consequatur, debitis sed voluptatem maxime, fuga reiciendis? Alias id eos
+                        porro?</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <!--Formulário aqui-->
+            <form action="/gravar-formulario">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="telefone" placeholder="Telefone">
+                <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-info">edermask21@gmail.com</div>
+    </footer>
+</body>
+
+</html>

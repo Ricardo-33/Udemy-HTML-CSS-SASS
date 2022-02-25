@@ -1,0 +1,24 @@
+.hero {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/styles/images/aleksandar-pasaric-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title {
+    background-color: adjust-color($color: $secondary, $alpha: -0.35);
+    text-align: center;
+    width: 100vw;
+    padding: 5% 0;
+    h1 {
+        color: $primary;
+        font-size: 4.5em;
+    }
+    h2 {
+        color: $primary;
+    }
+}

@@ -1,0 +1,20 @@
+.advantages-section {
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .advantages-container {
+        display        : flex;
+        justify-content: center;
+    
+        .advantage {
+            text-align: center;
+            width     : 30vw;
+            font-size : 1.2em;
+    
+            p {
+                padding: 0 15px 15px 15px;
+            }
+        }
+    }
+}

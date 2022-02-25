@@ -1,0 +1,133 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ebf4e4;
+}
+
+.stripped section {
+  padding: 25px 0;
+}
+.stripped section:nth-child(2n) {
+  background-color: #2c5e03ff;
+  color: #ebf4e4;
+}
+
+h2 {
+  text-align: center;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/styles/images/aleksandar-pasaric-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  background-color: rgba(199, 219, 182, 0.65);
+  text-align: center;
+  width: 100vw;
+  padding: 5% 0;
+}
+.hero-title h1 {
+  color: #2c5e03ff;
+  font-size: 4.5em;
+}
+.hero-title h2 {
+  color: #2c5e03ff;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10vw;
+}
+.cards-container .card {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.cards-container .card .card-footer {
+  background-color: #2c5e03ff;
+  color: #c7dbb6ff;
+  position: absolute;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.advantages-section h2 {
+  margin-bottom: 0;
+}
+.advantages-section .advantages-container {
+  display: flex;
+  justify-content: center;
+}
+.advantages-section .advantages-container .advantage {
+  text-align: center;
+  width: 30vw;
+  font-size: 1.2em;
+}
+.advantages-section .advantages-container .advantage p {
+  padding: 0 15px 15px 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20vw;
+}
+form * {
+  margin: 5px;
+  border-radius: 5px;
+}
+form button {
+  background-color: #2c5e03ff;
+  color: #b6d69cff;
+}
+
+footer {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-info {
+  color: #5e9e29ff;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/*# sourceMappingURL=general.css.map */
